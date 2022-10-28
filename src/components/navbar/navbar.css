@@ -1,0 +1,100 @@
+.navbar{
+    padding: 5px 0px;
+    margin-bottom: 60px;
+    border-bottom: 1px solid #F3F3F3;
+    font-size: 14px;
+    font-family: 'Poppins', sans-serif;
+    width: 100%;
+}
+
+.container{
+    padding: 0px 0px;
+    display: flex;
+    align-content: center;
+    align-items: center;
+    justify-content: space-between;
+    height: 70px;
+}
+
+.left{
+    display: flex;
+    align-items: center;
+    margin-right: 40px;
+}
+
+.left > img{
+    height: 40px;
+    margin-right: 90px;
+}
+
+.right{
+    display: flex;
+    align-items: center;
+}
+
+/* span{
+    margin-right: 20px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 500;
+} */
+
+/* a {
+    color: #393939;
+    text-decoration: none;
+    padding: 20px;
+} */
+
+/* .movieList{    
+    background: #FFFFFF;
+    border: 1px solid #EFEFEF;
+    border-radius: 22px;
+    height: 40px;
+    width: 154px;
+    display: flex;
+    margin: 0px 25px;
+    cursor: pointer;
+    justify-content: center;
+    align-content: center;
+}
+
+.movieList > p{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    color: #343434;
+    margin: auto;
+} */
+
+.socialMedia{
+    display: flex;
+    margin-left: 50px;
+}
+
+.socialMedia > a{
+    padding: 8px;
+    color:#242424;
+}
+
+
+@media (max-width:500px){
+    .navbar{
+        /* padding: 5px 0px; */
+        /* margin-bottom: 60px; */
+        border-bottom: 1px solid #F3F3F3;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        /* margin: auto; */
+    }
+
+    .container{
+        padding: 0px 25px;
+    }
+
+    .left{
+        width: 20%;
+    }
+}

@@ -1,0 +1,23 @@
+.errorBoundary{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.errorBoundary > img{
+    width: 47%;
+    cursor: pointer;
+}
+
+@media (max-width:500px){
+
+    .errorBoundary{
+        height: 100vh;
+    }
+
+    .errorBoundary > img{
+        width: 100%;
+        cursor: pointer;
+    }
+
+}
